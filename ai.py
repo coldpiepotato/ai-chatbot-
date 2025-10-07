@@ -4,7 +4,7 @@ import pyttsx3
 import pyaudio
 
 
-client = genai.Client(api_key= "AIzaSyAfOq7WgsWnTtqKCeBa9EiA7fsyfyG62qI")
+client = genai.Client(api_key= "your api")
 # function to interact with AI chatbot
 
 def aichatbot(prompt):
@@ -37,3 +37,4 @@ if __name__ == "__main__":
         #command = input("Do you want to continue? (yes/no): ").strip().lower()
         #if command != 'yes':
         #    break   
+
